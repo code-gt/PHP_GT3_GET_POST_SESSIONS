@@ -15,5 +15,7 @@
 // Stocker le pseudo envoyé par le formulaire
 // dans une variable de session
 
+// BONUS : afficher la date et l’heure de connexion du joueur
+
 // TODO 4 :
 // Rediriger vers profil.php
