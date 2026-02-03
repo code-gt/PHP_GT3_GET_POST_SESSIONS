@@ -15,6 +15,7 @@
 // TODO 3 :
 // Si le joueur est connecté :
 // - afficher le message de bienvenue
+// - afficher la date de connexion
 // - afficher le lien de déconnexion
 
 // TODO 4 :
