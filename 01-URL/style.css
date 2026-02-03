@@ -1,0 +1,138 @@
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #121212;
+     color: white;
+ }
+
+ h1 {
+     text-align: center;
+ }
+
+ .profils {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     margin-top: 40px;
+ }
+
+ .profil {
+     background-color: white;
+     color: #222222;
+     width: 250px;
+     padding: 15px;
+     border-radius: 10px;
+     text-align: center;
+ }
+
+ .profil img {
+     width: 100%;
+     border-radius: 10px;
+ }
+
+ .profil a {
+     display: inline-block;
+     margin-top: 10px;
+     text-decoration: none;
+     background-color: #007bff;
+     color: white;
+     padding: 8px 12px;
+     border-radius: 5px;
+ }
+
+ .profil a:hover {
+     background-color: #0056b3;
+ }
+
+ .card {
+     background-color: #1e1e1e;
+     width: 320px;
+     margin: auto;
+     padding: 20px;
+     border-radius: 15px;
+     text-align: center;
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+ }
+
+ .card img {
+     width: 100px;
+     border-radius: 50%;
+     display: block;
+     margin: 10px auto;
+ }
+
+ .badge {
+     display: inline-block;
+     padding: 6px 12px;
+     border-radius: 20px;
+     font-weight: bold;
+     margin-top: 10px;
+ }
+
+ .debutant {
+     background-color: #3498db;
+ }
+
+ .confirme {
+     background-color: #2ecc71;
+ }
+
+ .jeu {
+     margin-top: 10px;
+     font-style: italic;
+     color: #ccc;
+ }
+
+ a {
+     display: inline-block;
+     margin-top: 20px;
+     text-decoration: none;
+     color: white;
+     background-color: #007bff;
+     padding: 8px 14px;
+     border-radius: 8px;
+ }
+
+ a:hover {
+     background-color: #0056b3;
+ }
+
+ .form-joueur {
+     background-color: #1e1e1e;
+     padding: 20px;
+     width: 600px;
+     /* plus large pour 2 colonnes */
+     margin: 30px auto;
+     border-radius: 12px;
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+ }
+
+ .form-row {
+     display: flex;
+     gap: 15px;
+ }
+
+ .form-row input,
+ .form-row select {
+     flex: 1;
+     /* chaque champ prend moitié de la ligne */
+     padding: 10px;
+     border-radius: 8px;
+     border: none;
+     font-size: 14px;
+ }
+
+ .form-joueur button {
+     background-color: #2ecc71;
+     color: black;
+     font-weight: bold;
+     padding: 10px;
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+ }
+
+ .form-joueur button:hover {
+     background-color: #27ae60;
+ }
